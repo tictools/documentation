@@ -32,7 +32,7 @@ Install required dependencies as `devDependencies`. Take in account that loaders
 ## WEBPACK PLUGINS
 
 ### HtmlWebpackPlugin
-The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation. (see => https://webpack.js.org/plugins/html-webpack-plugin/)\
+The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation (see => https://webpack.js.org/plugins/html-webpack-plugin/ ). \
 Install required dependencies as `devDependencies`.
 * `html-webpack-plugin` => must be configured in webpack configuration:
 ```
