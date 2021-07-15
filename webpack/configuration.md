@@ -1,8 +1,8 @@
 # WEBPACK CONFIGURATION FOR REACT PROJECT
 ## WEBPACK DEPENDENCIES
 Install required dependencies as `devDependencies`.
-* webpack
-* webpack-cli
+* `npm install webpack --save-dev`
+* `npm install webpack-cli --save-dev`
 
 ## WEBPACK CONFIGURATION
 Create `webpack.config.js` to set webpack configuration
@@ -16,25 +16,25 @@ Create `webpack.config.js` to set webpack configuration
 ### Babel
 Required for React-jsx transpilation to js.\
 Install required dependencies as `devDependencies`. Take in account that presets contain several plugins which set rules for babel.
-* `@babel/core`
-* `@babel/preset-env`
-* `@babel/preset-react`
-* `babel-loader`
+* `npm install @babel/core --save-dev`
+* `npm install @babel/preset-env --save-dev`
+* `npm install @babel/preset-react --save-dev`
+* `npm install babel-loader --save-dev`
 This loader requires configuration (see **babel configuration** section).
 
 ### CSS
 Required for css transpilation to js.\
 Install required dependencies as `devDependencies`. Take in account that loaders order is important.
-* `style-loader`
-* `css-loader` => allows to define hashed classes for CSSModules
-* `postcss-loader` 
+* `npm install style-loader --save-dev`
+* `npm install css-loader --save-dev` => allows to define hashed classes for CSSModules
+* `npm install postcss-loader --save-dev` 
 
 ## WEBPACK PLUGINS
 
 ### HtmlWebpackPlugin
 The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation (see => https://webpack.js.org/plugins/html-webpack-plugin/ ). \
 Install required dependencies as `devDependencies`.
-* `html-webpack-plugin` => must be configured in webpack configuration:
+* `npm install html-webpack-plugin --save-dev` => must be configured in webpack configuration:
 ```
 plugins: [
     new HtmlWebpackPlugin({
