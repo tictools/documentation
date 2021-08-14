@@ -1,5 +1,12 @@
 # About JavaScript
 
+  
+
 ## Items
-1. Webpack
-2. Eslint && Prettier
+
+ - Webpack
+ - Eslint && Prettier
+ - Github configuration
+ - Testing
+	 - Cypress 
+ - npm
