@@ -1,12 +1,18 @@
 # About JavaScript
 
-  
+WIP
 
 ## Items
 
- - Webpack
- - Eslint && Prettier
- - Github configuration
- - Testing
-	 - Cypress 
- - npm
+- Clean Code
+- Eslint && Prettier
+- Github
+- JavaScript
+  - arrow function
+  - currying
+- npm
+- performance
+  - web Core Vitals
+- Testing
+  - Cypress
+- Webpack
